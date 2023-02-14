@@ -21,9 +21,18 @@ body {
   min-width: 800px;
 }
 
+.item:nth-child(1){
+  border-top: 3px solid #fff;
+}
+
+.item:last-child{
+  border-bottom: 3px solid #fff;
+}
+
 .item {
   width: 100%;
-  border-bottom: 3px solid #fff;
+  border-top: 1.5px solid #fff;
+  border-bottom: 1.5px solid #fff;
   border-right: 3px solid #fff;
   border-left: 3px solid #fff;
 }
